@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'link',
+1 verbose cli   'gulp' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 info C:\xampp\htdocs\blur-admin\node_modules\gulp unbuild
+6 info preuninstall gulp@3.9.1
+7 info uninstall gulp@3.9.1
+8 verbose true,C:\xampp\htdocs\blur-admin\node_modules,C:\xampp\htdocs\blur-admin\node_modules unbuild gulp@3.9.1
+9 verbose C:\xampp\htdocs\blur-admin\node_modules\.bin,[object Object] binRoot
+10 info postuninstall gulp@3.9.1
+11 verbose link symlinking C:\Users\gopi\AppData\Roaming\npm\node_modules\gulp to C:\xampp\htdocs\blur-admin\node_modules\gulp
+12 error Error: EPERM, symlink 'C:\Users\gopi\AppData\Roaming\npm\node_modules\gulp'
+12 error  { [Error: EPERM, symlink 'C:\Users\gopi\AppData\Roaming\npm\node_modules\gulp']
+12 error   errno: 50,
+12 error   code: 'EPERM',
+12 error   path: 'C:\\Users\\gopi\\AppData\\Roaming\\npm\\node_modules\\gulp' }
+13 error Please try running this command again as root/Administrator.
+14 error System Windows_NT 6.2.9200
+15 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "link" "gulp"
+16 error cwd C:\xampp\htdocs\blur-admin
+17 error node -v v0.10.26
+18 error npm -v 1.4.3
+19 error path C:\Users\gopi\AppData\Roaming\npm\node_modules\gulp
+20 error code EPERM
+21 error errno 50
+22 error stack Error: EPERM, symlink 'C:\Users\gopi\AppData\Roaming\npm\node_modules\gulp'
+23 verbose exit [ 50, true ]
